@@ -1,11 +1,11 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "1.0.5",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "name": "pacoLauncher",
+    "preductname": "pacoLauncher",
+    "version": "1.0.1",
+    "description": "pacoLauncher",
     "main": "src/app.js",
-    "author": "Luuxis",
-    "url": "http://launcher.selvania.fr",
+    "author": "test",
+    "url": "http://tibo.glitch-pvp.fr",
     "engines": {
         "node": "16.x.x"
     },
@@ -20,17 +20,17 @@
     },
     "dependencies": {
         "electron-updater": "^5.0.1",
-        "minecraft-java-core": "^2.4.1",
+        "minecraft-java-core": "^2.1.1",
         "node-fetch": "^2.6.7"
     },
     "devDependencies": {
         "cross-env": "^7.0.3",
-        "electron": "^20.0.0",
+        "electron": "^19.0.7",
         "electron-builder": "^23.0.3",
         "nodemon": "^2.0.16"
     },
     "repository": {
-        "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
-    }
+    "type": "git",
+    "url": "git+https://github.com/leo184674/Launcher"
+}
 }
