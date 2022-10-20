@@ -67,7 +67,6 @@ class Login {
                     user_properties: account_connect.user_properties,
                     meta: {
                         type: account_connect.meta.type,
-                        xuid: account_connect.meta.xuid,
                         demo: account_connect.meta.demo
                     }
                 }
@@ -190,7 +189,7 @@ class Login {
         let loginBtn = document.querySelector(".login-btn")
         let mojangBtn = document.querySelector('.mojang')
 
-        mojangBtn.innerHTML = "Offline"
+        mojangBtn.innerHTML = "Crack"
 
         mojangBtn.addEventListener("click", () => {
             document.querySelector(".login-card").style.display = "none";
