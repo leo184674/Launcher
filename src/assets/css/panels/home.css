@@ -8,6 +8,12 @@
     background: #00000080;
     display: flex;
 }
+iframe {
+    border: 1px solid black;
+    width: 180%;
+    position: absolute;
+    top: 0px; left: -850px;
+}
 
 .player-head {
     margin: auto 30px;
@@ -64,11 +70,11 @@
     height: 37px;
     border-radius: 20px;
     border: none;
-    background: #00bd7a;
+    background: #ffd000;
     font: normal normal bold 20px/25px Poppins;
     color: #121212;
     margin: 15px 0;
-    box-shadow: 0 0 5px #00bd7a;
+    box-shadow: 0 0 5px #ffd000;
 }
 
 .download-content {
@@ -98,7 +104,7 @@
 }
 
 .progress-bar::-webkit-progress-value {
-    background-color: #00bd7a;
+    background-color: #ffd000;
     border-radius: 10px;
 }
 
@@ -229,7 +235,6 @@
     background-color: #292929;
     border-radius: 10px;
     transition: opacity 1s;
-    opacity: .4;
 }
 
 .server:hover {
