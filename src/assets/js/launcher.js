@@ -105,7 +105,6 @@ class Launcher {
                         user_properties: refresh.user_properties,
                         meta: {
                             type: refresh.meta.type,
-                            xuid: refresh.meta.xuid,
                             demo: refresh.meta.demo
                         }
                     }
